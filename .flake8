@@ -1,0 +1,8 @@
+[flake8]
+# W503 Line break occurred before a binary operato
+# W605 Invalid escape sequence 'x'
+
+ignore = W503, W605, E402
+max-line-length = 99
+exclude =
+    notebooks\*

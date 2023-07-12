@@ -1,0 +1,13 @@
+name: dev-skeleton
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8.17
+  - pip=22.2.2
+  - pip:
+      ## Dev stuff
+      - pre-commit==3.3.3
+      - black==23.7.0
+      - isort==5.12.0
+      - flake8==6.0.0
